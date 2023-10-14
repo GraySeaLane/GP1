@@ -1,0 +1,36 @@
+.info{
+    border-radius: 20px;
+}
+
+.paid{
+    margin-right: 10%
+    ;
+    margin-left: 10%
+    ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.sooner{
+text-align: center;
+padding-top: 10%;
+  border-top-right-radius: 1em 1em;
+border-bottom-right-radius: 1em 1em;
+
+}
+
+.fun{
+    margin-left: 300px;
+    margin-right:300px;
+}
+
+.amazing{
+    margin-left: 300px;
+    margin-right:300px;
+}
+
+.foot p1{
+    font-family: Impact, sans-serif;
+    font-size:x-large ;
+}
