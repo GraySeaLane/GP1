@@ -1,0 +1,76 @@
+/* .container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 0.5fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "sign_up sign_up sign_up sign_in sign_in sign_in"
+      "sign_up sign_up sign_up sign_in sign_in sign_in"
+      "sign_up sign_up sign_up sign_in sign_in sign_in"
+      "sign_up sign_up sign_up button button button"
+      "sign_up sign_up sign_up social social social"; 
+  }
+  .sign_up { grid-area: sign_up; }
+  .sign_in { grid-area: sign_in; }
+  .button { grid-area: button; }
+  .social { grid-area: social; } */
+
+
+
+.moon {
+    max-height: 100%;
+    max-width: 100%;
+    height: 40vh;
+    width:25vw;
+    margin-top: 23%;
+    /* margin-left: 6%; */
+
+}
+
+  .left {
+    background-color: blue;
+    border-bottom-right-radius: 99%;
+    max-height: 100%;
+    max-width: 100%;
+    height:70vh; 
+    width: 70vw;
+  }
+
+
+
+  .col {
+    
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+
+  #up {
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+    border-radius: 12px solid white;
+
+  }
+
+  h6 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+  .padding {
+    background-color: blue;
+    z-index:0; 
+    
+  }
+  
+
+/* .col_left {
+    text-align: center;
+} */
+
+/* .form-group { */
+
+/* } */
