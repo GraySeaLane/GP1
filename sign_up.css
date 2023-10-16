@@ -1,0 +1,90 @@
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "sign_up photo photo"
+      "user photo photo"
+      "email photo photo"
+      "password photo photo"
+      "sign_up_button photo photo"
+      "other photo photo"
+      "social photo photo"; 
+  }
+  .user { grid-area: user; }
+  .email { grid-area: email; }
+  .password { grid-area: password; }
+  .other { grid-area: other; }
+  .social { grid-area: social; }
+  .sign_up_button { grid-area: sign_up_button; }
+  .sign_up { grid-area: sign_up;}
+  .photo { grid-area: photo; }
+
+#sign_up {
+    text-align: center;
+    justify-content: center;
+    padding-right: 20px;
+    
+}
+ 
+h1 {
+    text-align:center;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bolder;
+    position: absolute;
+
+}
+
+.user {
+    width:200px;
+    padding-top: 50px;
+    height: 60px;
+    border-radius: 25%;
+    border:1px solid black;
+}
+
+.password {
+    width:200px;
+    padding-left: 30px;
+    height: 60px;
+    border-radius: 25%;
+    border:1px solid black;
+}
+
+.email {
+    width:200px;
+    padding:30px;
+    height: 60px;
+    border-radius: 25%;
+    border:1px solid black;
+}
+
+.sign_up_button {
+    text-align: center;
+    padding-right: 240px;
+}
+
+.other {
+    text-align: left;
+    padding-right: 80px;
+}
+
+.social1.social2.social3 {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.social1 {
+    display: flex;
+}
+
+.social2 {
+    display:flex;
+    padding-left:50px;
+}
+
+.social3 {
+    padding-left: 60%;
+}
