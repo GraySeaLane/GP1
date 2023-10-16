@@ -1,0 +1,164 @@
+.row-sol{
+    font-weight: bold;
+}
+
+.col {
+    justify-content: flex-end;
+}
+
+#retain {
+    padding: 7%;
+    margin: 10%;
+    border: solid black 1px;
+    border-radius: 10%;
+
+}
+
+#report{
+
+    padding: 3%;
+    margin: 7%;
+    border: solid black 1px;
+    border-radius: 10%;
+
+}
+
+#convert{ 
+    padding: 7%;
+    margin: 7%;
+    border: solid black 1px;
+    border-radius: 10%;
+}
+
+p{ 
+    font-weight: bold;
+}
+
+
+
+#cards{
+    width: 100%;
+}    
+
+#computer{
+    width: 50%;
+    height:30%;
+    border: solid rgb(212, 211, 211);
+    border-radius: 30%;
+    padding: 4%;
+    margin: 1.5%;
+}
+
+.start{
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(4, 79, 243);
+    color: white;
+}
+
+.row {
+    justify-content: center;
+}
+
+#top{
+    justify-content: space-evenly;
+}
+ 
+#checkmark{
+    
+    width: 50%;
+    height:30%;
+    border: solid rgb(212, 211, 211);
+    border-radius: 30%;
+    padding: 4%;
+    margin: 1.5%;
+}
+
+#calen{
+    width: 50%;
+    height:30%;
+    border: solid rgb(212, 211, 211);
+    border-radius: 30%;
+    padding: 4%;
+    margin: 1.5%;
+}
+
+#tics{
+    width: 50%;
+    height:30%;
+    border: solid rgb(212, 211, 211);
+    border-radius: 30%;
+    padding: 4%;
+    margin: 1.5%;
+}
+
+#cash{
+    width: 27% ;
+    padding: 7%;
+    margin: 9%;
+    border: solid black 1px;
+    border-radius: 10%;
+}
+
+#list {
+    width: 90%;
+}
+
+h3{
+    text-align: center;
+}
+
+.Ho{
+    padding: 40px;
+}
+
+.F{
+    padding:40px;
+
+}
+
+.Pr{
+    padding:40px;
+}
+
+.HIW{
+    padding:40px;
+}
+
+.Sup{
+    padding:40px;
+}
+
+.SI{
+    padding: 10px;
+    border: solid blue;
+    border-radius: 40%;
+}
+
+.Try{
+    background-color: blue;
+    padding: 10px;
+    border: solid blue;
+    border-radius: 40%;
+}
+
+#cancel{
+    flex-direction: row;
+}
+
+#click{
+    width: 5.5%;
+    border: solid black 3px;
+    
+
+}
+#chat{
+    width: 6%;
+    border: solid black 3px;
+}
+
+.foot p1{
+    font-family: Impact, sans-serif;
+    font-size:x-large ;
+    }
+    
