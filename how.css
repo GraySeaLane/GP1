@@ -3,10 +3,8 @@
 }
 
 .paid{
-    margin-right: 10%
-    ;
-    margin-left: 10%
-    ;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 20px;
@@ -15,7 +13,7 @@
 .sooner{
 text-align: center;
 padding-top: 10%;
-  border-top-right-radius: 1em 1em;
+border-top-right-radius: 1em 1em;
 border-bottom-right-radius: 1em 1em;
 
 }
@@ -33,4 +31,56 @@ border-bottom-right-radius: 1em 1em;
 .foot p1{
     font-family: Impact, sans-serif;
     font-size:x-large ;
+}
+
+/* Miguels' CSS for Nav Bar/header */
+
+#list {
+    width: 90%;
+}
+#click{
+    width: 5.5%;
+    border: solid black 3px;}
+#chat{
+    width: 6%;
+    border: solid black 3px;
+}
+
+.row {
+    justify-content: center;
+
+}
+
+#top{
+    justify-content: space-evenly;
+}
+
+.F{
+    padding:40px;
+
+}
+
+.Pr{
+    padding:40px;
+}
+
+.HIW{
+    padding:40px;
+}
+
+.Sup{
+    padding:40px;
+}
+
+.SI{
+    padding: 10px;
+    border: solid blue;
+    border-radius: 40%;
+}
+
+.Try{
+    background-color: blue;
+    padding: 10px;
+    border: solid blue;
+    border-radius: 40%;
 }
